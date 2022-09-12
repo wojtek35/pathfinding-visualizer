@@ -14,9 +14,9 @@ G(n) - the current shortest path from the start node to the 'n' node
 F(n) = G(n) + H(n)
 What does F(n) represent? Let's consider 3 points A, B and C. A is the starting node. C is the ending node and B is the node in between them. F(B) represents a 'score' composed of two components. We have already gone X blocks from A to B (G(B)) and from this node, we guess (based on the H(n)) that the path to the C node is Y blocks. If instead of node B we had many nodes - the algorithm would choose the node with the lowest F(n) score as the next node.
 
-The total F(n) score is X+Y.
-| Node | F | G | H | Last |
-| ---- | ------------ | --- | --- | ---- |
-| A | Content Cell | | | |
-| B | Content Cell | | | |
-| C | Content Cell | | | |
+1. First left mouse click will add the start node on the screen (orange)
+2. Second left mouse click will add the end mode on the screen (turquoise)
+3. After that left mouse clicks will add the barriers
+4. You can delete the nodes with right mouse click
+5. Start the algorithm by hitting SPACE
+6. Clear the grid by hitting the C key
