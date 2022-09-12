@@ -199,6 +199,9 @@ def main(win, width):
 
             elif pygame.mouse.get_pressed()[2]:  # RIGHT MOUSE BUTTON
                 pos = pygame.mouse.get_pos()
+                row, col = get_clicked_pos(pos, ROWS, width)
+                node = grid[row][col]
+                node.reset()
                 if node == start:
                     start = None
                 elif node == end:
