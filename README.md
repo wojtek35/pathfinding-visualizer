@@ -20,3 +20,5 @@ What does F(n) represent? Let's consider 3 points A, B and C. A is the starting 
 4. You can delete the nodes with right mouse click
 5. Start the algorithm by hitting SPACE
 6. Clear the grid by hitting the C key
+
+![](https://github.com/wojtek35/pathfinding-visualizer/blob/master/video.gif)
